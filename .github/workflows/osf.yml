@@ -14,17 +14,16 @@ jobs:
         run: |
           mkdir BUILD && cd BUILD
           mkdir -p rendering
-          cp ../CycloRoute.render.xml rendering
+          cp ../Mapping.render.xml rendering
           cp ../export/items.json .
 
       - name: Make zip
         run: |
           cd BUILD
-          zip -r CycloRoute.osf .
+          zip -r Mapping.osf .
 
 
       - uses: actions/upload-artifact@v3
         with:
           name: CycloRoute
-          path: BUILD/CycloRoute.osf
-
+          path: BUILD/Mapping.osf

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<renderingStyle name="Mapping" depends="default" defaultColor="#f1eae4" version="1">
+	<order>
+	</order>
+
+	<text>
+	</text>
+
+	<point>
+	</point>
+
+	<polygon>
+
+	</polygon>
+
+	<line>
+	</line>
+</renderingStyle>
